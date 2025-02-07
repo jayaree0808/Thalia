@@ -14,8 +14,8 @@ body {
   }
   
   h1 {
-    font-size: 2.5em;
-    color: #d32f2f;
+    font-size: 40px;
+    color: #fb4570;
   }
   
   .buttons {
@@ -49,3 +49,24 @@ body {
     border-radius: 10px;
     margin-top: 20px;
   }
+
+p {
+            font-size: 28px;
+            color: #333;
+            line-height: 1.6;
+            margin: 50px;
+            font-weight: 400;
+        }
+        .heart {
+            font-size: 30px;
+            color: #ff007f;
+            animation: heartbeat 1s infinite;
+        }
+        @keyframes heartbeat {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+        }
