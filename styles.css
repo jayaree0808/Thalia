@@ -51,22 +51,9 @@ body {
   }
 
 p {
-            font-size: 28px;
+            font-size: 18px;
             color: #333;
             line-height: 1.6;
             margin: 10px;
             font-weight: 400;
-        }
-        .heart {
-            font-size: 30px;
-            color: #ff007f;
-            animation: heartbeat 1s infinite;
-        }
-        @keyframes heartbeat {
-            0%, 100% {
-                transform: scale(1);
-            }
-            50% {
-                transform: scale(1.2);
-            }
         }
